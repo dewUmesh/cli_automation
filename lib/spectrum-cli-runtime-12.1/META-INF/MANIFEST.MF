@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: Spectrum - Command Line Interface Runtime
+Implementation-Version: 12.1
+Build-Number: 12.1-509
+Archiver-Version: Plexus Archiver
+Built-By: g1dcg_build
+Specification-Title: Spectrum - Command Line Interface Runtime
+Implementation-Vendor-Id: com.pb.spectrum.cli
+Class-Path: lib/*
+Main-Class: org.springframework.shell.Bootstrap
+Created-By: Apache Maven 3.3.3
+Build-Jdk: 1.8.0_141
+Specification-Version: 12.1
+

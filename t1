@@ -1,0 +1,7 @@
+def main():
+    l=list()
+    if not l:
+        print("empty list")
+
+if __name__ == '__main__':
+    main()

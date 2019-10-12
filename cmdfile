@@ -1,0 +1,3 @@
+connect --h localhost:9090 --u admin --p admin
+dataflow list
+close

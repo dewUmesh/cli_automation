@@ -1,0 +1,6 @@
+connect --h IN-7PP8PC2-10:9090 --u admin --p admin
+dataflow import --u True --p exports --f "job1 test.df"
+dataflow import --u True --p exports --f "job2 test.df"
+dataflow import --u True --p exports --f "New Job2.df"
+dataflow import --u True --p exports --f "New Job.df"
+close

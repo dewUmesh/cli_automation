@@ -1,0 +1,19 @@
+<!--Exported Thu Oct 10 21:35:25 EDT 2019 by admin from IN-7PP8PC2-10--><exportedDataflow schema_version="9.0"><exposed>true</exposed><dataflow id="job1 test" schema_version="9.0" version=""><product_group/><channels><channel id="ea0e71d6-4311-4287-873b-b3ddd6ce3053"><field_transformers/></channel></channels><created_by>admin</created_by><created_date>10/10/19 12:45 PM</created_date><service_exposures/><icon/><inputs/><last_modified_by>admin</last_modified_by><last_modified_date>10/10/19 12:45 PM</last_modified_date><outputs/><properties><property><name>ViewData</name><value><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<viewData version="3.0">
+  <canvasNode id="db155082-405b-442e-bca9-19054aa1ac1f">
+    <location x="742" y="178" />
+  </canvasNode>
+  <canvasNode id="e6747c17-9267-456a-b007-23357ba4a251">
+    <location x="545" y="175" />
+  </canvasNode>
+  <canvasLink fromPortID="4d7fce09-a598-4f7d-a7cf-a027cc9fc8b3" toPortID="ce2a2379-5060-44cb-ae80-73b822e175aa" />
+</viewData>]]></value></property></properties><stages><stage id="db155082-405b-442e-bca9-19054aa1ac1f"><stage_name>nullsink</stage_name><stage_version/><label>Write to Null</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><input_ports><input_port id="ce2a2379-5060-44cb-ae80-73b822e175aa"><channel idref="ea0e71d6-4311-4287-873b-b3ddd6ce3053"/><label>input_port</label><port_name>input_port</port_name></input_port></input_ports><options/><output_ports/><properties><property><name>ViewData</name><value/></property><property><name>stageItemName</name><value><![CDATA[nullsink]]></value></property></properties></stage><stage id="e6747c17-9267-456a-b007-23357ba4a251"><stage_name>timedim</stage_name><stage_version/><label>Generate Time Dimension</label><num_instances>1</num_instances><distributed>false</distributed><batch_size>10000</batch_size><settings><![CDATA[<?xml version="1.0" encoding="utf-16"?>
+<timeDimensionConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <startDate>10/10/2019</startDate>
+  <endDate>10/10/2019</endDate>
+  <fieldList>
+    <timeAttribute>Date</timeAttribute>
+    <fieldName>Date</fieldName>
+    <calendarName>Default</calendarName>
+  </fieldList>
+</timeDimensionConfiguration>]]></settings><input_ports/><options/><output_ports><output_port id="4d7fce09-a598-4f7d-a7cf-a027cc9fc8b3"><channel idref="ea0e71d6-4311-4287-873b-b3ddd6ce3053"/><label>output_port</label><port_name>output_port</port_name></output_port></output_ports><properties><property><name>ViewData</name><value/></property><property><name>stageItemName</name><value><![CDATA[timedim]]></value></property></properties></stage></stages><reports/><notifications/><dataflow_options/><type>2</type><vendor/></dataflow></exportedDataflow>

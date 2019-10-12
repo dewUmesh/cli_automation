@@ -1,0 +1,6 @@
+connect --h IN-7PP8PC2-10:9090 --u admin --p admin
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+dataflow export  --e True --o exports --d "New Job"
+close

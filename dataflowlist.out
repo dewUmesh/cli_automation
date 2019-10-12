@@ -1,0 +1,3 @@
+connect --h IN-7PP8PC2-10:9090 --u admin --p admin
+dataflow list
+close

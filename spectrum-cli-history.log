@@ -1,0 +1,391 @@
+// Spectrum Technology Platform 12.1 log opened at 2019-10-09 09:13:35
+connect --h localhost:9090 --u admin --p ********
+dataflow list
+q
+// Spectrum Technology Platform 12.1 log closed at 2019-10-09 09:14:15
+// Spectrum Technology Platform 12.1 log opened at 2019-10-09 09:30:12
+// Spectrum Technology Platform 12.1 log opened at 2019-10-09 10:50:25
+q
+// Spectrum Technology Platform 12.1 log closed at 2019-10-09 10:50:39
+// null 12.1 log opened at 2019-10-09 10:52:12
+connect --h localhost:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-09 10:53:14
+connect --h localhost:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-09 11:08:54
+connect --h localhost:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-09 11:09:21
+connect --h localhost:9090 --u admin --p ********
+dataflow list
+close
+// Spectrum Technology Platform 12.1 log opened at 2019-10-09 17:36:24
+// null 12.1 log opened at 2019-10-09 17:39:08
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-09 17:49:35
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 12:27:24
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+// null 12.1 log opened at 2019-10-10 12:32:47
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+// null 12.1 log opened at 2019-10-10 12:43:01
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+// null 12.1 log opened at 2019-10-10 12:43:40
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 12:46:21
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+close
+// null 12.1 log opened at 2019-10-10 12:47:00
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 12:47:04
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+close
+// null 12.1 log opened at 2019-10-10 12:48:42
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 12:48:45
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 12:50:03
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 14:11:45
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 14:12:44
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 14:13:22
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 14:14:18
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 14:16:49
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 14:17:50
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "New Job"
+dataflow export  --e True --o exports --d "New Job2"
+close
+// null 12.1 log opened at 2019-10-10 14:19:47
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+// null 12.1 log opened at 2019-10-10 14:20:47
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+// null 12.1 log opened at 2019-10-10 14:21:26
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+close
+// null 12.1 log opened at 2019-10-10 14:22:28
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 14:23:06
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "New Job"
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "New Job2"
+close
+// null 12.1 log opened at 2019-10-10 14:24:06
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "New Job2"
+close
+// null 12.1 log opened at 2019-10-10 14:25:06
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+close
+// null 12.1 log opened at 2019-10-10 14:25:58
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 14:53:43
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+close
+// null 12.1 log opened at 2019-10-10 14:55:08
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+close
+// null 12.1 log opened at 2019-10-10 14:55:10
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow import --u True --p exports --f "job1 test"
+dataflow import --u True --p exports --f "job2 test"
+dataflow import --u True --p exports --f "New Job2"
+close
+// null 12.1 log opened at 2019-10-10 15:08:32
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+close
+// null 12.1 log opened at 2019-10-10 15:08:54
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+close
+// null 12.1 log opened at 2019-10-10 15:10:26
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+close
+// null 12.1 log opened at 2019-10-10 15:11:15
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+close
+// null 12.1 log opened at 2019-10-10 15:11:58
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+close
+// Spectrum Technology Platform 12.1 log opened at 2019-10-10 20:07:38
+// null 12.1 log opened at 2019-10-10 20:09:39
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 20:10:29
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 20:18:43
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 20:19:40
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 20:44:30
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 20:45:21
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 20:45:48
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 20:46:14
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 20:46:44
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 21:01:08
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 21:02:03
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 21:02:54
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// Spectrum Technology Platform 12.1 log opened at 2019-10-10 21:03:24
+// null 12.1 log opened at 2019-10-10 21:19:49
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 21:19:53
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+close
+// null 12.1 log opened at 2019-10-10 21:21:01
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 21:21:04
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+close
+// null 12.1 log opened at 2019-10-10 21:21:37
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 21:21:40
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+close
+// null 12.1 log opened at 2019-10-10 21:22:58
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 21:23:01
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 21:24:09
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 21:24:12
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 21:25:16
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 21:25:19
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 21:25:46
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 21:25:48
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 21:27:00
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 21:27:02
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 21:27:32
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 21:27:35
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 21:28:45
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 21:28:48
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 21:29:48
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 21:29:51
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 21:30:26
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 21:30:29
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 21:34:43
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 21:34:46
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+dataflow export  --e True --o exports --d "New Job"
+close
+// null 12.1 log opened at 2019-10-10 21:35:22
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow list
+close
+// null 12.1 log opened at 2019-10-10 21:35:25
+connect --h IN-7PP8PC2-10:9090 --u admin --p ********
+dataflow export  --e True --o exports --d "job1 test"
+dataflow export  --e True --o exports --d "job2 test"
+dataflow export  --e True --o exports --d "New Job2"
+dataflow export  --e True --o exports --d "New Job"
+close
